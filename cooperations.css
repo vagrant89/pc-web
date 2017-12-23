@@ -1,0 +1,40 @@
+body{
+  /* padding: 0 10%; */
+}
+header{
+  position: fixed;
+  width: 100%;
+}
+.socialmedia,
+.phone{
+  display: inline-block;
+}
+.phone{
+  padding-left: 15%;
+}
+.socialmedia{
+  float: right;
+  padding-right: 15%;
+}
+.clear{
+  clear: both;
+}
+.navbar{
+  padding: .5rem 15%;
+  background-color: #29b078;
+
+}
+.navbar-right{
+  position: absolute;
+  left: 50%;
+}
+.active{
+  border-bottom: 3px solid white;
+}
+.nav-item{
+  line-height: 3.5rem;
+  color: white;
+}
+main{
+  padding-top: 6.5rem;
+}
