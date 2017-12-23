@@ -3,7 +3,9 @@ body{
 }
 header{
   position: fixed;
+  background-color: white;
   width: 100%;
+  z-index: 100;
 }
 .socialmedia,
 .phone{
@@ -38,16 +40,19 @@ header{
 main{
   padding-top: 6.5rem;
 }
-.location{
-  padding: 0 15%;
+li{
+  list-style-image: url(images/btn.png);
 }
-
-.left{
-  float:left;
-  /* padding-left: 15%; */
-  width: 150px;
+.selected{
+  list-style-image: url(images/selectBtn.png);
 }
-.right{
-  /* margin-left:30%; */
-  max
+.pull-left{
+  float: left;
+}
+.title{
+  list-style: none;
+  padding: 0 20px;
+}
+.col{
+  border: 1px solid #f6f6f6;
 }
