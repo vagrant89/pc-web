@@ -38,3 +38,16 @@ header{
 main{
   padding-top: 6.5rem;
 }
+.location{
+  padding: 0 15%;
+}
+
+.left{
+  float:left;
+  /* padding-left: 15%; */
+  width: 150px;
+}
+.right{
+  /* margin-left:30%; */
+  max
+}
