@@ -1,6 +1,4 @@
-body{
-  /* padding: 0 10%; */
-}
+/* header */
 header{
   position: fixed;
   background-color: white;
@@ -40,56 +38,26 @@ header{
   line-height: 3.5rem;
   color: white;
 }
+
+/* main */
 main{
   padding-top: 6.5rem;
 }
-.row p a:link{
-  color: black;
-  font-weight: bold;
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: transparent;
 }
-.row p span{
-  color: #a2d9c0;
-}
-ul,
-li{
-  padding: 0;
-  list-style-image: url(images/btn.png);
-  list-style-position: inside;
-}
-.selected{
-  list-style-image: url(images/selectBtn.png);
-}
-.selected a:link{
-  color: #ffb396;
-}
-.title{
-  padding-top: 1rem;
-  list-style: none;
-  font-weight: bold;
-}
-.row{
-  padding-left: 15%;
-  padding-right: 15%;
-}
-.sidebar{
-  border: 1px solid #f6f6f6;
-  text-align: center;
-}
-li a:link{
-  color: #a2d9c0;
-}
-.content{
-  border: 1px solid #f6f6f6;
-}
-.pull-left{
-  float: left;
-}
-.img-content{
-  min-height: 120px;
-}
+
+/* footer */
 footer{
+  width: 100%;
   background-color: #26a26f;
   font-size: .7rem;
+  /* position: fixed;
+  bottom: 0; */
 }
 table{
   font-size: .7rem;
@@ -112,4 +80,35 @@ table a:link{
 }
 .copyright{
   color: white;
+}
+.container span{
+  display: block;
+  text-align: center;
+}
+.grey{
+  font-size: 0.8rem;
+  color: #c4c4c4;
+  text-align: left !important;
+}
+.row{
+  padding: 1rem 15%;
+}
+.efficient{
+  padding-top: 5rem;
+  background: url(images/index_03.png) no-repeat top;
+}
+.standardized{
+  padding-top: 5rem;
+  background: url(images/index_05.png) no-repeat top;
+}
+.colleagues{
+  padding-top: 5rem;
+  background: url(images/index_07.png) no-repeat top;
+}
+.number{
+  padding-left: 2rem;
+  background: url(images/index_10.png) no-repeat left;
+}
+.rt{
+  padding-top: 5rem;
 }
