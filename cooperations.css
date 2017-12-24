@@ -1,6 +1,7 @@
 body{
   /* padding: 0 10%; */
 }
+/* header */
 header{
   position: fixed;
   background-color: white;
@@ -40,6 +41,8 @@ header{
   line-height: 3.5rem;
   color: white;
 }
+
+/* main */
 main{
   padding-top: 6.5rem;
 }
@@ -68,8 +71,8 @@ li{
   font-weight: bold;
 }
 .row{
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .sidebar{
   border: 1px solid #f6f6f6;
@@ -87,6 +90,8 @@ li a:link{
 .img-content{
   min-height: 120px;
 }
+
+/* footer */
 footer{
   background-color: #26a26f;
   font-size: .7rem;

@@ -32,7 +32,7 @@ header{
 }
 .active{
   border-bottom: 3px solid white;
-  color: #ffad85;
+  /* color: #ffad85; */
 }
 .nav-item{
   line-height: 3.5rem;
@@ -42,6 +42,7 @@ header{
 /* main */
 main{
   padding-top: 6.5rem;
+  background-color: #fafafa;
 }
 .carousel-indicators li{
   width: 10px;
@@ -50,6 +51,111 @@ main{
   border: 1px solid white;
   background-color: transparent;
 }
+.container span{
+  display: block;
+  text-align: center;
+}
+.grey{
+  font-size: 0.8rem;
+  color: #c4c4c4;
+  text-align: left !important;
+}
+.row{
+  padding: 1rem 5%;
+}
+.efficient{
+  padding-top: 5rem;
+  background: url(images/index_03.png) no-repeat top;
+}
+.standardized{
+  padding-top: 5rem;
+  background: url(images/index_05.png) no-repeat top;
+}
+.colleagues{
+  padding-top: 5rem;
+  background: url(images/index_07.png) no-repeat top;
+}
+.number{
+  padding-left: 2rem;
+  background: url(images/index_10.png) no-repeat left;
+}
+.rt{
+  padding-top: 5rem;
+}
+.steps{
+  padding-left: 5rem;
+  height: 5rem;
+}
+.step1{
+  background: url(images/number_03.png) no-repeat left;
+}
+.step2{
+  background: url(images/number_05.png) no-repeat left;
+}
+.step3{
+  background: url(images/number_07.png) no-repeat left;
+}
+.step4{
+  background: url(images/number_09.png) no-repeat left;
+}
+.step5{
+  background: url(images/number_23.png) no-repeat left;
+}
+.step6{
+  background: url(images/number_16.png) no-repeat left;
+}
+.step7{
+  background: url(images/number_18.png) no-repeat left;
+}
+.step8{
+  background: url(images/number_20.png) no-repeat left;
+}
+.photo{
+  padding-top: 7rem;
+}
+.photo1{
+  background: url(images/index_23.png) no-repeat top;
+}
+.photo2{
+  background: url(images/index_17.png) no-repeat top;
+}
+.photo3{
+  background: url(images/index_19.png) no-repeat top;
+}
+.photo4{
+  background: url(images/index_21.png) no-repeat top;
+}
+/* carousel2 */
+#carousel2 .carousel-indicators .active{
+  background-color: #2ab079;
+}
+#carousel2 .carousel-indicators li {
+  background-color: white;
+}
+#carousel2 .carousel-indicators{
+  position: relative;
+  bottom: -10px;
+}
+.cooperations{
+  background-color: white;
+}
+.anchors ul li::before{
+  content: " \00b7";
+  font-weight: bolder;
+}
+.anchors ul li{
+  display: inline;
+  font-size: .5rem;
+}
+a:link{
+  color:black;
+}
+.links{
+  padding: 0;
+  line-height: .5rem;
+}
+
+
 
 /* footer */
 footer{
@@ -80,35 +186,4 @@ table a:link{
 }
 .copyright{
   color: white;
-}
-.container span{
-  display: block;
-  text-align: center;
-}
-.grey{
-  font-size: 0.8rem;
-  color: #c4c4c4;
-  text-align: left !important;
-}
-.row{
-  padding: 1rem 15%;
-}
-.efficient{
-  padding-top: 5rem;
-  background: url(images/index_03.png) no-repeat top;
-}
-.standardized{
-  padding-top: 5rem;
-  background: url(images/index_05.png) no-repeat top;
-}
-.colleagues{
-  padding-top: 5rem;
-  background: url(images/index_07.png) no-repeat top;
-}
-.number{
-  padding-left: 2rem;
-  background: url(images/index_10.png) no-repeat left;
-}
-.rt{
-  padding-top: 5rem;
 }
