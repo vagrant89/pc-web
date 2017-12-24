@@ -14,6 +14,9 @@ header{
 .phone{
   padding-left: 15%;
 }
+.phone a:link{
+  color: #a2d9c0;
+}
 .socialmedia{
   float: right;
   padding-right: 15%;
@@ -24,7 +27,6 @@ header{
 .navbar{
   padding: .5rem 15%;
   background-color: #29b078;
-
 }
 .navbar-right{
   position: absolute;
@@ -32,6 +34,7 @@ header{
 }
 .active{
   border-bottom: 3px solid white;
+  color: #ffad85;
 }
 .nav-item{
   line-height: 3.5rem;
@@ -40,19 +43,70 @@ header{
 main{
   padding-top: 6.5rem;
 }
+.row p a:link{
+  color: black;
+}
+.row p span{
+  color: #a2d9c0;
+}
+ul,
 li{
+  padding: 0;
   list-style-image: url(images/btn.png);
+  list-style-position: inside;
 }
 .selected{
   list-style-image: url(images/selectBtn.png);
 }
-.pull-left{
-  float: left;
+.selected a:link{
+  color: #ffb396;
 }
 .title{
   list-style: none;
-  padding: 0 20px;
 }
-.col{
+.row{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.sidebar{
   border: 1px solid #f6f6f6;
+  text-align: center;
+}
+li a:link{
+  color: #a2d9c0;
+}
+.content{
+  border: 1px solid #f6f6f6;
+}
+.pull-left{
+  float: left;
+}
+.img-content{
+  min-height: 120px;
+}
+footer{
+  background-color: #26a26f;
+  font-size: .7rem;
+}
+table{
+  font-size: .7rem;
+  color: white;
+  white-space: nowrap;
+}
+td{
+  padding: 10px;
+}
+table a:link{
+  color: white;
+}
+.wechat-qr{
+  text-align: center;
+}
+.wechat-qr span{
+  display: block;
+  color: white;
+  white-space: nowrap;
+}
+.copyright{
+  color: white;
 }
