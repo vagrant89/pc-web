@@ -76,6 +76,7 @@ main{
   background: url(images/index_07.png) no-repeat top;
 }
 .number{
+  text-align: left !important;
   padding-left: 2rem;
   background: url(images/index_10.png) no-repeat left;
 }
@@ -83,32 +84,34 @@ main{
   padding-top: 5rem;
 }
 .steps{
-  padding-left: 5rem;
-  height: 5rem;
+  padding: 2rem 0 2rem 5rem;
+  /* padding-top: 2rem;
+  padding-left: 5rem; */
+  /* height: 5rem; */
 }
 .step1{
-  background: url(images/number_03.png) no-repeat left;
+  background: url(images/number_03.png) no-repeat left top;
 }
 .step2{
-  background: url(images/number_05.png) no-repeat left;
+  background: url(images/number_05.png) no-repeat left top;
 }
 .step3{
-  background: url(images/number_07.png) no-repeat left;
+  background: url(images/number_07.png) no-repeat left top;
 }
 .step4{
-  background: url(images/number_09.png) no-repeat left;
+  background: url(images/number_09.png) no-repeat left top;
 }
 .step5{
-  background: url(images/number_23.png) no-repeat left;
+  background: url(images/number_23.png) no-repeat left top;
 }
 .step6{
-  background: url(images/number_16.png) no-repeat left;
+  background: url(images/number_16.png) no-repeat left top;
 }
 .step7{
-  background: url(images/number_18.png) no-repeat left;
+  background: url(images/number_18.png) no-repeat left top;
 }
 .step8{
-  background: url(images/number_20.png) no-repeat left;
+  background: url(images/number_20.png) no-repeat left top;
 }
 .photo{
   padding-top: 7rem;
