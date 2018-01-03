@@ -1,9 +1,7 @@
 /* header */
 header{
-  position: fixed;
   background-color: white;
   width: 100%;
-  z-index: 100;
 }
 .socialmedia,
 .phone{
@@ -27,11 +25,12 @@ header{
   background-color: #29b078;
 }
 .navbar-right{
-  position: absolute;
-  left: 50%;
+  margin-left: auto;
+  text-align: center;
 }
 .active{
   border-bottom: 3px solid white;
+  /* width: fit-content; */
   /* color: #ffad85; */
 }
 .nav-item{
@@ -41,7 +40,7 @@ header{
 
 /* main */
 main{
-  padding-top: 6.5rem;
+  /* padding-top: 6.5rem; */
   background-color: #fafafa;
 }
 .carousel-indicators li{
@@ -142,13 +141,19 @@ main{
 .cooperations{
   background-color: white;
 }
+
 .anchors ul li::before{
-  content: " \00b7";
+  content: " \00b7      ";
   font-weight: bolder;
 }
 .anchors ul li{
-  display: inline;
+  display: inline-block;
   font-size: .5rem;
+  /* white-space: nowrap; */
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
 }
 a:link{
   color:black;
@@ -172,6 +177,7 @@ table{
   font-size: .7rem;
   color: white;
   white-space: nowrap;
+  width: 100%;
 }
 td{
   padding: 10px;

@@ -1,9 +1,7 @@
 /* header */
 header{
-  position: fixed;
   background-color: white;
   width: 100%;
-  z-index: 100;
 }
 .socialmedia,
 .phone{
@@ -27,8 +25,8 @@ header{
   background-color: #29b078;
 }
 .navbar-right{
-  position: absolute;
-  left: 50%;
+  margin-left: auto;
+  text-align: center;
 }
 .active{
   border-bottom: 3px solid white;
@@ -42,7 +40,6 @@ header{
 
 /* main */
 main{
-  padding-top: 7rem;
   background-color: #fafafa;
   min-height: 33.2rem;
 }
@@ -141,6 +138,7 @@ table{
   font-size: .7rem;
   color: white;
   white-space: nowrap;
+  width: 100%;
 }
 td{
   padding: 10px;
