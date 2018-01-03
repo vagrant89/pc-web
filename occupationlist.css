@@ -70,6 +70,7 @@ li .active{
   overflow: hidden;
   background-color: white;
   box-shadow: 2px 2px 1px #888888;
+  border: 1px solid #888888;
 }
 p:not(.title){
   font-size: .7rem;
@@ -111,7 +112,6 @@ em{
 }
 .overTop{
   position: absolute;
-  text-align: center;
   height: 100%;
   /* margin: 0 0.5rem 0.5rem 0; */
   padding: 2rem;
