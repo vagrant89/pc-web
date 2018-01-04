@@ -62,6 +62,9 @@ li .active{
   background-color: #29b078;
   color: white;
 }
+.tab-pane{
+  border: none;
+}
 .col-md-4{
   padding: .5rem;
 }
@@ -72,8 +75,13 @@ li .active{
   box-shadow: 2px 2px 1px #888888;
   border: 1px solid #888888;
 }
-p:not(.title){
+p{
   font-size: .7rem;
+}
+.title{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  text-align: center;
 }
 .positionTable{
   width: 100%;
@@ -90,6 +98,9 @@ p:not(.title){
 }
 .star{
   padding: 0.5rem;
+}
+b{
+  color: black;
 }
 em{
   color: red;

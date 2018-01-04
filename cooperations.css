@@ -1,5 +1,6 @@
 body{
   /* padding: 0 10%; */
+  background-color: #fafafa;
 }
 /* header */
 header{
@@ -68,25 +69,33 @@ li{
   list-style: none;
   font-weight: bold;
 }
-.row{
-  padding-left: 5%;
-  padding-right: 5%;
-}
+
 .sidebar{
   border: 1px solid #f6f6f6;
   text-align: center;
+  background-color: white;
+  margin-bottom: 3rem;
 }
 li a:link{
   color: #a2d9c0;
 }
+p{
+  color: #999;
+}
 .content{
   border: 1px solid #f6f6f6;
+  padding: 3rem;
+  background-color: white;
+  margin-bottom: 3rem;
 }
 .pull-left{
   float: left;
 }
 .img-content{
   min-height: 120px;
+  padding-left: 8rem;
+  background: url('images/cooperations_20.png') no-repeat left;
+  background-size: 8rem;
 }
 
 /* footer */
