@@ -13,6 +13,9 @@ header{
 .phone a:link{
   color: #a2d9c0;
 }
+.phone a:visited{
+  color: #a2d9c0;
+}
 .socialmedia{
   float: right;
   padding-right: 15%;
@@ -77,6 +80,9 @@ li .active{
 }
 p{
   font-size: .7rem;
+}
+p a:visited{
+  color: black;
 }
 .title{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -153,6 +159,9 @@ td{
   padding: 10px;
 }
 table a:link{
+  color: white;
+}
+table a:visited{
   color: white;
 }
 .wechat-qr{

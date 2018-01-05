@@ -17,6 +17,9 @@ header{
 .phone a:link{
   color: #a2d9c0;
 }
+.phone a:visited{
+  color: #a2d9c0;
+}
 .socialmedia{
   float: right;
   padding-right: 15%;
@@ -113,6 +116,9 @@ td{
   padding: 10px;
 }
 table a:link{
+  color: white;
+}
+table a:visited{
   color: white;
 }
 .wechat-qr{

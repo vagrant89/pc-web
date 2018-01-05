@@ -13,6 +13,9 @@ header{
 .phone a:link{
   color: #a2d9c0;
 }
+.phone a:visited{
+  color: #a2d9c0;
+}
 .socialmedia{
   float: right;
   padding-right: 15%;
@@ -30,8 +33,9 @@ header{
 }
 .active{
   border-bottom: 3px solid white;
-  /* width: fit-content; */
-  /* color: #ffad85; */
+}
+.navbar-nav a:hover{
+  border-bottom: 3px solid white;
 }
 .nav-item{
   line-height: 3.5rem;
@@ -141,16 +145,39 @@ main{
   position: relative;
   bottom: -5px;
 }
-.cooperations{
-  background-color: white;
-}
-.cooperations img:hover{
+.icon:hover{
   border: 1px solid #eeeded;
   box-shadow: 0 0 86px #ddd;
 }
+.icon img{
+  width: 100%;
+}
+@media ( min-width : 300px) {
+    .col-sm-5ths {
+        width: 100%;
+        padding-right:0.5rem;
+        padding-left:0.5rem;
+        padding-top: 0.5rem;
+    }
+
+}
+
+@media ( min-width : 767px) {
+    .col-md-5ths {
+        width: 20%;
+        background-color: white;
+        float: left;
+        padding-right:0.01rem;
+        padding-left:0.01rem;
+        padding-top: 0;
+    }
+
+}
+
 a:hover{
   text-decoration: none;
 }
+
 .anchors ul li::before{
   content: " \00b7      ";
   font-weight: bolder;
@@ -164,8 +191,11 @@ a:hover{
     display: flex;
     justify-content: space-between;
 }
-a:link{
+ul a:link{
   color:black;
+}
+ul a:visited{
+  color: black;
 }
 .links{
   padding: 0;
@@ -192,6 +222,9 @@ td{
   padding: 10px;
 }
 table a:link{
+  color: white;
+}
+table a:visited{
   color: white;
 }
 .wechat-qr{
