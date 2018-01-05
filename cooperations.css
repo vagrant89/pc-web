@@ -39,6 +39,9 @@ header{
   border-bottom: 3px solid white;
   color: #ffad85;
 }
+.navbar-nav a:hover{
+  border-bottom: 3px solid white;
+}
 .nav-item{
   line-height: 3.5rem;
   color: white;
@@ -50,7 +53,9 @@ main{
 }
 .row p a:link{
   color: black;
-  font-weight: bold;
+}
+.row p a:visited{
+  color: black;
 }
 .row p span{
   color: #a2d9c0;
@@ -80,6 +85,9 @@ li{
   margin-bottom: 3rem;
 }
 li a:link{
+  color: #a2d9c0;
+}
+li a:visited{
   color: #a2d9c0;
 }
 p{

@@ -35,6 +35,9 @@ header{
   border-bottom: 3px solid white;
   /* color: #ffad85; */
 }
+.navbar-nav a:hover{
+  border-bottom: 3px solid white;
+}
 .nav-item{
   line-height: 3.5rem;
   color: white;
@@ -46,7 +49,12 @@ main{
   background-color: #fafafa;
   min-height: 33.2rem;
 }
-.currentlocation{}
+.row p a:link{
+  color: black;
+}
+.row p a:visited{
+  color: black;
+}
 ul{
   padding: 0;
   width: 100%;
@@ -58,12 +66,12 @@ li{
 .nav{
   display: inline-block !important;
 }
-a:link{
+li a:link{
   color: black;
 }
 li .active{
   background-color: #29b078;
-  color: white;
+  color: white !important;
 }
 .tab-pane{
   border: none;
